@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_7OQ8UBpzEeWfZbrWBWGnGA" name="NewModel">
+  <packagedElement xmi:type="uml:Class" xmi:id="_WTaksBp0EeWfZbrWBWGnGA" name="MvtStock">
+    <ownedAttribute xmi:id="_eN9ZYBp0EeWfZbrWBWGnGA" name="date" visibility="private">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nSwasBp0EeWfZbrWBWGnGA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_3FEc4Bp0EeWfZbrWBWGnGA" name="qte" visibility="private"/>
+    <ownedOperation xmi:id="_dWqvkBp1EeWfZbrWBWGnGA" name="mouvementer" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9gpZMBp0EeWfZbrWBWGnGA" name="Entree">
+    <generalization xmi:id="_ZC9esBp1EeWfZbrWBWGnGA" general="_WTaksBp0EeWfZbrWBWGnGA"/>
+    <ownedOperation xmi:id="_XcQxMBp2EeWfZbrWBWGnGA" name="Entree(stockArticle : StockArticle, qte : Double, date : Date)"/>
+    <ownedOperation xmi:id="_a08kQBp2EeWfZbrWBWGnGA" name="mouvementr()"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_lLhzABp1EeWfZbrWBWGnGA" name="Sortie">
+    <generalization xmi:id="_mubJIBp1EeWfZbrWBWGnGA" general="_WTaksBp0EeWfZbrWBWGnGA"/>
+    <ownedOperation xmi:id="_8pbn4Bp1EeWfZbrWBWGnGA" name="mouvementr()"/>
+    <ownedOperation xmi:id="__yxXYBp1EeWfZbrWBWGnGA" name="Sortie(stockArticle : StockArticle, qte : Double, date : Date)"/>
+  </packagedElement>
+</uml:Model>

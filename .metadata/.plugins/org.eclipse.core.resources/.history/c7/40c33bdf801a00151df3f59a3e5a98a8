@@ -1,0 +1,20 @@
+package com.bankonet.model;
+
+public class CompteCourant {
+	
+	private int identifiant;
+	private String libelle;
+	private Float solde;
+	private Float decouvertAutorise;
+	static int nbComptesCourants = 0;
+	
+	public CompteCourant(int i, String string, float f, float g) {
+		identifiant= i;
+		libelle = string;
+		
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+}
+

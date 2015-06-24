@@ -1,0 +1,11 @@
+package com.bankonet.model;
+
+public class TestCompteCourant {
+	
+	public static void main(String[] args) {
+	CompteCourant compteCourant1 = new CompteCourant(123456789, "nico", 5000.50F, 0.0F);
+	CompteCourant compteCourant2;
+	CompteCourant compteCourant3;
+	}
+
+}
